@@ -7,8 +7,6 @@ module.exports = {
     let [results] = await userDB.login(username, password);
     console.log(results);
     if (results) {
-      //此处判断条件若写 results.length>0 ,results.length为undefined?
-
       //登陆成功 生成token
       let payload = {
         userId: results.user_id,
