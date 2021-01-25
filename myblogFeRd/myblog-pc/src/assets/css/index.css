@@ -1,0 +1,39 @@
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  background: url('../images/bg-feather.jpeg');
+}
+
+.published {
+  width: 150px;
+  height: 30px;
+  background: url("../images/bg-black.jpg");
+  border-radius: 5px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 40px;
+  text-align: center;
+  line-height: 30px;
+}
+.container {
+  width: 800px;
+  margin: 40px auto;
+}
+.item{
+  background: url('../images/bg-white.jpeg');
+    padding: 20px 0;
+    margin-bottom: 20px;
+    width: 800px;
+    overflow: hidden;
+}
+.item h3{
+    margin: 10px 20px;
+}
+.item p{
+    margin: 10px 20px;
+}
+.item span{
+    margin: 10px 20px;
+}

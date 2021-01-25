@@ -1,0 +1,26 @@
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  background: url('../images/bg-feather.jpeg');
+}
+
+.item{
+  width: 800px;
+  background: url('../images/bg-white.jpeg');
+  margin: 40px auto;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    width: 800px;
+    overflow: hidden;
+}
+.item h3{
+    margin: 10px 20px;
+}
+.item p{
+    margin: 10px 20px;
+}
+.item span{
+    margin: 10px 20px;
+}
